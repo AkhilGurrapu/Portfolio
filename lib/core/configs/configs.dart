@@ -1,4 +1,4 @@
-export 'app_dimensions.dart';
+//export 'app_dimensions.dart';
 export 'others/app_typography.dart';
 export 'others/app_typography_ext.dart';
 export '../theme/app_theme.dart';

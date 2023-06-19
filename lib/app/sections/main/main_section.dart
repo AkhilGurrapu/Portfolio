@@ -13,7 +13,7 @@ import 'package:akhilgurrapu/core/providers/scroll_provider.dart';
 import 'package:akhilgurrapu/app/utils/navbar_utils.dart';
 import 'package:akhilgurrapu/app/utils/utils.dart';
 import 'package:akhilgurrapu/app/widgets/navbar_actions_button.dart';
-import 'package:akhilgurrapu/app/widgets/navbar_logo.dart';
+//import 'package:akhilgurrapu/app/widgets/navbar_logo.dart';
 import 'package:akhilgurrapu/core/res/responsive.dart';
 import 'package:akhilgurrapu/core/theme/cubit/theme_cubit.dart';
 import 'package:provider/provider.dart';

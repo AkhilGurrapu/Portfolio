@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 class NavBarUtils {
   static const List<String> names = [
     'HOME',
-    // 'ABOUT',
-    'SERVICES',
+    'ABOUT',
+    //'SERVICES',
     'WORKS',
     'CONTACT',
   ];

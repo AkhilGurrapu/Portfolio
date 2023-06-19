@@ -19,7 +19,7 @@ class _NavbarDesktopState extends State<_NavbarDesktop> {
         color: theme.navBarColor,
         child: Row(
           children: [
-            const NavBarLogo(),
+            //const NavBarLogo(),
             Space.xm!,
             ...NavBarUtils.names.asMap().entries.map(
                   (e) => NavBarActionButton(
@@ -67,7 +67,7 @@ class _NavBarTablet extends StatelessWidget {
             icon: const Icon(Icons.menu),
           ),
           Space.xm!,
-          const NavBarLogo(),
+          //const NavBarLogo(),
           // Space.x1!,
         ],
       ),

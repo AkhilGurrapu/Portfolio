@@ -25,7 +25,7 @@ class ContactDesktop extends StatelessWidget {
           Space.y(1.w)!,
           const CustomSectionSubHeading(
             text:
-                "If you want to avail my services you can contact me at the links below.",
+                "If you want to connect with me you can contact me at the links below.",
           ),
           Space.y(2.w)!,
           Container(
@@ -55,19 +55,19 @@ class ContactDesktop extends StatelessWidget {
                         ),
 
                         Space.y(1.w)!,
-                        Text(
-                          contactSubHeadding,
-                          style: const TextStyle(
-                            fontSize: 16,
-                            fontWeight: FontWeight.w100,
-                          ),
-                        ),
+                        // Text(
+                        //   contactSubHeadding,
+                        //   style: const TextStyle(
+                        //     fontSize: 16,
+                        //     fontWeight: FontWeight.w100,
+                        //   ),
+                        // ),
                         Space.y(2.w)!,
                         // SizedBox(height: AppDimensions.space(3)),
                       ],
                     ),
                     InkWell(
-                      onTap: () => openURL(whatsapp),
+                      onTap: () => openURL(facebook),
                       child: Container(
                         padding: const EdgeInsets.symmetric(
                             vertical: 5, horizontal: 20),
@@ -77,7 +77,7 @@ class ContactDesktop extends StatelessWidget {
                             //     width: 2.0, color: theme.primaryColor),
                             borderRadius: BorderRadius.circular(10)),
                         child: const Text(
-                          'Get Started',
+                          'Connect',
                           style: TextStyle(
                             fontSize: 18,
                             fontWeight: FontWeight.w500,
