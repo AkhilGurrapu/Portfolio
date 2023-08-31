@@ -16,11 +16,11 @@ class ProjectUtils {
 List<ProjectUtils> projectUtils = [
   ProjectUtils(
     banners: 'assets/imgs/02.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Social Media App',
+    icons: 'assets/imgs/streamlit.png',
+    titles: 'Capital Asset Pricing Model',
     description:
-        'This is a just Fully functional Social media App by using flutter, source code is also available, check below.',
-    links: 'https://github.com/akhilgurrapu/',
+        'The CAPM Calculator is a powerful financial tool developed using Streamlit and Python that enables users to quickly and intuitively calculate expected returns for their investment portfolios ',
+    links: 'https://capitalassestpricingmodel.streamlit.app/',
   ),
   ProjectUtils(
     banners: 'assets/imgs/1.png',

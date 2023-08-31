@@ -4,8 +4,8 @@ String yourname = "I'm Akhil Gurrapu,";
 // String hometitle2 = "A Mobile Application\nDeveloper";
 
 String animationtxt1 = " Data Analyst";
-String animationtxt2 = " Data Engineer";
-String animationtxt3 = " Data Architect";
+String animationtxt2 = " Software Engineer";
+String animationtxt3 = " Data Scientist";
 
 //
 String contactHeadding = "Let’s Connect!";
