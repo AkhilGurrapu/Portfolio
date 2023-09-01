@@ -23,12 +23,12 @@ List<ProjectUtils> projectUtils = [
     links: 'https://capitalassestpricingmodel.streamlit.app/',
   ),
   ProjectUtils(
-    banners: 'assets/imgs/1.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome CRM UI',
+    banners: 'assets/imgs/bamboofresh.png',
+    icons: 'assets/imgs/BambooFreshLogo.png',
+    titles: 'BambooFresh App',
     description:
-        'This is a just CRM UI Design using Figma, file is also available, check below.',
-    links: 'https://github.com/akhilgurrapu/',
+        'BambooFresh: Your ultimate green grocery Flutter app. Shop fresh, locally sourced produce while enjoying seamless operations, all driven by the innovative spirit of community-focused development.',
+    links: 'https://play.google.com/store/apps/details?id=in.bamboofresh.bamboofresh&pli=1',
   ),
   ProjectUtils(
     banners: 'assets/imgs/03.png',
