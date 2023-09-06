@@ -13,7 +13,7 @@ class EducationMobile extends StatelessWidget {
         Space.y(3.w)!,
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 10.w),
-          child: CustomSectionSubHeading(text: educationSubHeading),
+          child: CustomSectionSubHeading(text: educationSubHeading,), 
         ),
         Space.y(5.w)!,
         CarouselSlider.builder(

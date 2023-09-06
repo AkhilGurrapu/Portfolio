@@ -71,14 +71,16 @@ class HomeMobile extends StatelessWidget {
                   html.window.open(resume, "pdf");
                 },
               ),
-              const EntranceFader(
-                offset: Offset(0, 0),
-                delay: Duration(seconds: 1),
-                duration: Duration(milliseconds: 800),
-                child: ZoomAnimations(),
-              )
+              // const EntranceFader(
+              //   offset: Offset(0, 0),
+              //   delay: Duration(seconds: 1),
+              //   duration: Duration(milliseconds: 800),
+              //   child: ZoomAnimations(),
+              // )
             ],
           ),
+          Space.y(3.w)!,
+          const ZoomAnimations(),
         ],
       ),
     );
