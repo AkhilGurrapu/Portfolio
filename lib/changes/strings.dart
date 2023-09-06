@@ -17,8 +17,10 @@ String miniDescription =
     "With a strong background in Management Information Systems and a passion for software engineering, seeking impactful opportunities to utilize my coding and project management skills.";
 
 String servicesSubHeading =
-    "My name is Akhil Gurrapu and I'm a Graduate Assistant in Enrollment Department and Management Information Systems major at Southern Illinois University Edwardsville (SIUE). I'm always searching for new opportunities in the future that can build on my current experiences, but I am currently, seeking to obtain particularly Software Engineering Intern, Associate Project/Product Manager roles for Summer 2023 where I can utilize my coding skills and project management skills to support projects that will meet business requirements. ";
+    "I am an experienced professional skilled in data analysis, reporting, and Salesforce administration and development. I have a track record of creating dynamic reports using Microsoft Power BI, Excel, and Access, providing insights into enrollment and admissions metrics. Additionally, I've designed and implemented a custom HR management app on the Salesforce platform, enhancing data security and workflow efficiency. My expertise includes data visualization, SQL, Apex, Python, and Java programming, making me a valuable asset for data-driven insights and system optimization.";
 //
+String educationSubHeading = 
+    "I am a graduate student at Southern Illinois University Edwardsville (SIUE) pursuing a Master of Science in Management Information Systems. I have a Bachelor of Technology in Electrical and Electronics Engineering from Kakatiya Institute of Technology and Science (KITS), Warangal, India.";
 
 String protfolioSubHeading =
     "Throughout my journey as a Data Analyst, I have crafted impactful digital solutions for businesses and consumers, harnessing the power of data to drive informed decision-making and optimize performance.";

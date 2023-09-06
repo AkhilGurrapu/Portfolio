@@ -1,13 +1,13 @@
-part of 'services.dart';
+part of 'education.dart';
 
-class ServiceDesktop extends StatefulWidget {
-  const ServiceDesktop({Key? key}) : super(key: key);
+class EducationDesktop extends StatefulWidget {
+  const EducationDesktop({Key? key}) : super(key: key);
 
   @override
-  ServiceDesktopState createState() => ServiceDesktopState();
+  EducationDesktopState createState() => EducationDesktopState();
 }
 
-class ServiceDesktopState extends State<ServiceDesktop> {
+class EducationDesktopState extends State<EducationDesktop> {
   @override
   Widget build(BuildContext context) {
     double height = MediaQuery.of(context).size.height;
@@ -18,20 +18,20 @@ class ServiceDesktopState extends State<ServiceDesktop> {
           .copyWith(bottom: height * 0.2),
       child: Column(
         children: [
-          const CustomSectionHeading(text: '\n Experience'),
+          const CustomSectionHeading(text: '\n Education'),
           Space.y(1.w)!,
-          CustomSectionSubHeading(text: servicesSubHeading),
+          CustomSectionSubHeading(text: educationSubHeading),
           Space.y(2.w)!,
           Wrap(
             spacing: width * 0.03,
             runSpacing: height * 0.05,
             alignment: WrapAlignment.start,
             crossAxisAlignment: WrapCrossAlignment.start,
-            children: servicesUtils
+            children: educationUtils
                 .asMap()
                 .entries
                 .map(
-                  (e) => _ServiceCard(service: e.value),
+                  (e) => _EducationCard(education: e.value),
                 )
                 .toList(),
           )

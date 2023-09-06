@@ -1,7 +1,7 @@
-part of 'services.dart';
+part of 'education.dart';
 
-class ServiceMobile extends StatelessWidget {
-  const ServiceMobile({Key? key}) : super(key: key);
+class EducationMobile extends StatelessWidget {
+  const EducationMobile({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -9,18 +9,18 @@ class ServiceMobile extends StatelessWidget {
 
     return Column(
       children: [
-        const CustomSectionHeading(text: '\n Experience'),
+        const CustomSectionHeading(text: '\n Education'),
         Space.y(3.w)!,
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 10.w),
-          child: CustomSectionSubHeading(text: servicesSubHeading),
+          child: CustomSectionSubHeading(text: educationSubHeading),
         ),
         Space.y(5.w)!,
         CarouselSlider.builder(
-          itemCount: servicesUtils.length,
+          itemCount: educationUtils.length,
           itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
             padding: EdgeInsets.symmetric(vertical: 0.5.w),
-            child: _ServiceCard(service: servicesUtils[i]),
+            child: _EducationCard(education: educationUtils[i]),
           ),
           options: CarouselOptions(
             viewportFraction: 0.6,

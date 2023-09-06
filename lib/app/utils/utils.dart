@@ -1,3 +1,4 @@
+import 'package:akhilgurrapu/app/sections/Education/education.dart';
 import 'package:flutter/material.dart';
 import 'package:akhilgurrapu/app/sections/contact/contact.dart';
 import 'package:akhilgurrapu/app/sections/home/home.dart';
@@ -8,8 +9,8 @@ import 'package:akhilgurrapu/app/widgets/footer.dart';
 class BodyUtils {
   static const List<Widget> views = [
     HomePage(),
-    //About(),
     Services(),
+    Education(),
     Portfolio(),
     Contact(),
     Footer(),
