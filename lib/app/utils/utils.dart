@@ -8,7 +8,7 @@ import 'package:akhilgurrapu/app/widgets/footer.dart';
 class BodyUtils {
   static const List<Widget> views = [
     HomePage(),
-    // About(),
+    //About(),
     Services(),
     Portfolio(),
     Contact(),

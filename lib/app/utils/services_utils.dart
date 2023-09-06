@@ -24,7 +24,7 @@ List<ServicesUtils> servicesUtils = [
   ),
   ServicesUtils(
     name: 'UniBuddy',
-    title: 'Student Ambassador',
+    title: 'Student Ambassador (SIUE)',
     icon: 'assets/imgs/unibuddy.png',
     description:
         "The role involves representing the Southern Illinois University and the Management Information Systems department, in a positive and professional manner to share the experience of learning at the university. - Responding to questions from prospective students, parents, and other interested individuals in a professional and timely manner.- Providing accurate and up-to-date information about the University and its courses, facilities, and student life.- Ensure effective communication between the university and the prospective students. ",
@@ -33,15 +33,15 @@ List<ServicesUtils> servicesUtils = [
   ServicesUtils(
     name: 'Tata Consultancy Services',
     title: 'Software Engineer',
-    icon: 'assets/icons/tcs.png',
+    icon: 'assets/imgs/tcs.png',
     description:
         "As a Salesforce administrator and developer, I worked on the development of an HR management app on the Salesforce platform. My responsibilities included: Configuring and setting up the Salesforce platform, including creating and managing users, setting up security and data access controls, and maintaining data integrity. Designing and building custom objects and fields, creating workflows and automation rules, and integrating with other systems and tools. Writing code using Apex, creating custom Lightning components and Visualforce pages, and integrating with other systems and tools using APIs.",
-    tool: ['Salesforce', 'Apex', 'Cloud Computing', 'SQL', 'Python', 'Customer Relationship Management', 'Salesforce Developer','Salesforce Administrator'],
+    tool: ['Salesforce', 'Apex', 'Cloud Computing', 'SQL', 'Python', 'CRM', 'Salesforce Developer','Salesforce Administrator'],
   ),
   ServicesUtils(
     name: 'BambooFresh',
     title: 'Founder',
-    icon: 'assets/icons/bamboo.png',
+    icon: 'assets/imgs/BambooFreshLogo.png',
     description:
         "As the founder of a small online green grocery-selling site in our locality, my role likely involves a wide range of responsibilities. These include developing and maintaining the website and development and accompanying android application, managing the day-to-day operations of the business, handling customer inquiries and complaints, managing inventory and supplies, and working to grow and promote the business. I have played a key role in developing and implementing strategies for the company, such as identifying target markets, setting pricing and sales goals, and determining the best ways to reach and serve customers.",
     tool: ['Flutter', 'Google Cloud Platform','Leadership', 'Customer Service', 'Problem Solving', 'Decision Making',],
