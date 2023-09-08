@@ -30,20 +30,20 @@ List<ProjectUtils> projectUtils = [
         'BambooFresh: Your ultimate green grocery Flutter app. Shop fresh, locally sourced produce while enjoying seamless operations, all driven by the innovative spirit of community-focused development.',
     links: 'https://play.google.com/store/apps/details?id=in.bamboofresh.bamboofresh&pli=1',
   ),
-  ProjectUtils(
-    banners: 'assets/imgs/03.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Exercise App',
-    description:
-        'This is a just Fully function Exercise App by using flutter, source code is also available, check below.',
-    links: 'https://github.com/akhilgurrapu/',
-  ),
-  ProjectUtils(
-    banners: 'assets/imgs/04.png',
-    icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Plant App UI',
-    description:
-        'This is a just Plant App UI by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/akhilgurrapu/',
-  ),
+  // ProjectUtils(
+  //   banners: 'assets/imgs/03.png',
+  //   icons: 'assets/imgs/flutter.png',
+  //   titles: 'Exercise App',
+  //   description:
+  //       'This is a just Fully function Exercise App by using flutter, source code is also available, check below.',
+  //   links: 'https://github.com/akhilgurrapu/',
+  // ),
+  // ProjectUtils(
+  //   banners: 'assets/imgs/04.png',
+  //   icons: 'assets/imgs/flutter.png',
+  //   titles: 'Awesome Plant App UI',
+  //   description:
+  //       'This is a just Plant App UI by using flutter, source code is also available, check below.',
+  //   links: 'https://github.com/sudeshnb/akhilgurrapu/',
+  // ),
 ];
