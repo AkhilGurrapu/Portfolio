@@ -42,8 +42,7 @@ class HomeMobile extends StatelessWidget {
               fontWeight: FontWeight.w600,
             ),
           ),
-          Space.y(1.w)!,
-          const ZoomAnimations(),
+          
           Row(
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
@@ -79,8 +78,9 @@ class HomeMobile extends StatelessWidget {
               //   child: ZoomAnimations(),
               // )
             ],
-          ),
           
+          ),
+          const ZoomAnimations(),
           
         ],
       ),
