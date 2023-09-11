@@ -30,14 +30,14 @@ List<ProjectUtils> projectUtils = [
         'BambooFresh: Your ultimate green grocery Flutter app. Shop fresh, locally sourced produce while enjoying seamless operations, all driven by the innovative spirit of community-focused development.',
     links: 'https://play.google.com/store/apps/details?id=in.bamboofresh.bamboofresh&pli=1',
   ),
-  // ProjectUtils(
-  //   banners: 'assets/imgs/03.png',
-  //   icons: 'assets/imgs/flutter.png',
-  //   titles: 'Exercise App',
-  //   description:
-  //       'This is a just Fully function Exercise App by using flutter, source code is also available, check below.',
-  //   links: 'https://github.com/akhilgurrapu/',
-  // ),
+   ProjectUtils(
+     banners: 'assets/imgs/03.png',
+    icons: 'assets/imgs/flutter.png',
+    titles: 'Exercise App',
+    description:
+        'This is a just Fully function Exercise App by using flutter, source code is also available, check below.',
+    links: 'https://app.powerbi.com/view?r=eyJrIjoiOGVmM2Q0YzgtNzFlYy00MzQ0LWFhNTAtZmQ5NTY1ZGI2MzE1IiwidCI6IjQwM2M2MDU5LWYyZWItNGFlZC1hMmFhLTdiY2IzOThiYTMzNyIsImMiOjZ9',
+  ),
   // ProjectUtils(
   //   banners: 'assets/imgs/04.png',
   //   icons: 'assets/imgs/flutter.png',
