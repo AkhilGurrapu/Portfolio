@@ -78,7 +78,7 @@ class HomeMobile extends StatelessWidget {
               //   child: ZoomAnimations(),
               // )
             ],
-          
+          //here
           ),
           const ZoomAnimations(),
           
