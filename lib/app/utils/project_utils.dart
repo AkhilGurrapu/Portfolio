@@ -44,7 +44,7 @@ List<ProjectUtils> projectUtils = [
     titles: 'BambooFresh App',
     description:
         'BambooFresh: Your ultimate green grocery Flutter app. Shop fresh, locally sourced produce while enjoying seamless operations, all driven by the innovative spirit of community-focused development.',
-    links: 'https://play.google.com/store/apps/details?id=in.bamboofresh.bamboofresh&pli=1',
+    links: 'https://akhilgurrapu.github.io/Marketing_Analytics-DataScience-Project/',
   ),
   ProjectUtils(
     banners: 'assets/imgs/bamboofresh.png',
