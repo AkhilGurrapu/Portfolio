@@ -1,6 +1,6 @@
 // CV
 const String resume =
-    'https://drive.google.com/file/d/18W4iMhjQA1ltXAtwSmb9-nUvisbBrxiu/view?usp=sharing';
+    'https://drive.google.com/file/d/1t5ww6D_NzZq04u_MHaYrZEfE7MZJO_Fo/view?usp=sharing';
 
 // Github Link
 const String gitHub = 'https://github.com/akhilgurrapu';
@@ -26,8 +26,7 @@ const String linkedin = 'https://linkedin.com/in/akhilgurrapu';
 // ];
 //
 const String profileImage =
-    "https://images.unsplash.com/photo-1503443207922-dff7d543fd0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80";
-//
+"";//
 // Github Link
 
 const String whatsapp = 'tel:+16182511920';

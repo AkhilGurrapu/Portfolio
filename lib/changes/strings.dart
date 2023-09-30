@@ -4,8 +4,8 @@ String yourname = "I'm Akhil Gurrapu,";
 // String hometitle2 = "A Mobile Application\nDeveloper";
 
 String animationtxt1 = " Data Analyst";
-String animationtxt2 = " Software Engineer";
-String animationtxt3 = " Data Scientist";
+String animationtxt2 = " Data Scientist";
+String animationtxt3 = " Software Engineer";
 
 //
 String contactHeadding = "Let’s Connect!";
@@ -14,10 +14,10 @@ String contactHeadding = "Let’s Connect!";
 //   harnessing their potential to uncover valuable insights and create a meaningful impact.""";
 // //
 String miniDescription =
-    "With a strong background in Management Information Systems and a passion for software engineering, seeking impactful opportunities to utilize my coding and project management skills.";
+    "With a strong background in Management Information Systems and a passion for Data Science, seeking impactful opportunities to utilize my data analytical and data science skills.";
 
 String servicesSubHeading =
-    "I am an experienced professional skilled in data analysis, reporting, and Salesforce administration and development. I have a track record of creating dynamic reports using Microsoft Power BI, Excel, and Access, providing insights into enrollment and admissions metrics. Additionally, I've designed and implemented a custom HR management app on the Salesforce platform, enhancing data security and workflow efficiency. My expertise includes data visualization, SQL, Apex, Python, and Java programming, making me a valuable asset for data-driven insights and system optimization.";
+    "I am an experienced professional skilled in data analysis, Statistics, Data Science, reporting, and development. I have a track record of creating dynamic reports using Microsoft Power BI, Tableau, Qlik and AWS, providing insights into enrollment and admissions metrics. Additionally,My expertise includes data visualization, SQL, Apex, Python, and Java programming, making me a valuable asset for data-driven insights and system optimization.";
 //
 String educationSubHeading = 
     "I am a graduate student at Southern Illinois University Edwardsville (SIUE) pursuing a Master of Science in Management Information Systems. I have a Bachelor of Technology in Electrical and Electronics Engineering from Kakatiya Institute of Technology and Science (KITS), Warangal, India.";
@@ -28,4 +28,4 @@ const String aboutMeHeadline =
     'I\'m Akhil Gurrapu, a passionate Data Analyst and dedicated Data Enthusiast';
 
 const String aboutMeDetail =
-    "I\'m Hello! My name is Akhil Gurrapu and I'm a Graduate Assistant in Enrollment Department and Management Information Systems major at Southern Illinois University Edwardsville (SIUE)";
+    "I\'m Hello! My name is Akhil Gurrapu and I'm a Graduate Assistant (Data Analyst) in Enrollment Department and Management Information Systems major at Southern Illinois University Edwardsville (SIUE)";

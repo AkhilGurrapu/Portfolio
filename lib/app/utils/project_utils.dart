@@ -54,12 +54,4 @@ List<ProjectUtils> projectUtils = [
         'Statistical Analysis and Visualization for Marketing Analytics using Python and Pandas',
     links: 'https://play.google.com/store/apps/details?id=in.bamboofresh.bamboofresh&pli=1',
   ),
-  // ProjectUtils(
-  //   banners: 'assets/imgs/04.png',
-  //   icons: 'assets/imgs/flutter.png',
-  //   titles: 'Awesome Plant App UI',
-  //   description:
-  //       'This is a just Plant App UI by using flutter, source code is also available, check below.',
-  //   links: 'https://github.com/sudeshnb/akhilgurrapu/',
-  // ),
 ];

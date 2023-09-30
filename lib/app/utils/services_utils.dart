@@ -19,7 +19,7 @@ List<ServicesUtils> servicesUtils = [
     title: 'Graduate Assistant',
     icon: 'assets/imgs/siue.png',
     description:
-        "I worked on Microsoft Power BI, Excel, and Access to develop a range of reports related to enrollment and admissions. Using these tools, I was responsible for creating dynamic and visually appealing reports that provided insights into key metrics such as enrollment numbers, admissions trends, and retention rates. I also worked closely with various departments across the university to gather data and ensure that the reports were accurate and up-to-date.",
+        "•	I have led the Design and development of visually appealing analytical dashboards and reports using Microsoft Power BI, Excel, and Access which enhanced data visibility, resulting in a 20% increase in timely decision-making based on enrollment numbers and admission trends. Utilized SQL and data management techniques to extract, transform, and load data from university databases, Improved data accuracy by 15% through data cleansing and transformation processes. Collaborated with stakeholders to define data requirements and specifications, built strong relationships, fostering a data-driven culture and leading to a 30% increase in data-driven decisions.",
     tool: ['Power BI', 'Excel', 'Access', 'AWS','Cloud Computing', 'SQL', 'Python', 'R','Data Visualization', 'Data Analysis'],
   ),
   ServicesUtils(
@@ -32,11 +32,11 @@ List<ServicesUtils> servicesUtils = [
   ),
   ServicesUtils(
     name: 'Tata Consultancy Services',
-    title: 'Software Engineer',
+    title: 'Assistant System Engineer - Data Analyst',
     icon: 'assets/imgs/tcs.png',
     description:
-        "As a Salesforce administrator and developer, I worked on the development of an HR management app on the Salesforce platform. My responsibilities included: Configuring and setting up the Salesforce platform, including creating and managing users, setting up security and data access controls, and maintaining data integrity. Designing and building custom objects and fields, creating workflows and automation rules, and integrating with other systems and tools. Writing code using Apex, creating custom Lightning components and Visualforce pages, and integrating with other systems and tools using APIs.",
-    tool: ['Salesforce', 'Apex', 'Cloud Computing', 'SQL', 'Python', 'CRM', 'Salesforce Developer','Salesforce Administrator'],
+        " Lead dashboard development/Analytics initiatives – including data prep by extracting data from different databases like AWS, SQL Server, and used Python to build out predictive models and used Tableau for developing presentation layer in customer facing dashboards to ensure data integrity and improve data quality, resulting in a 15% enhancement in data reliability. Conducted advanced statistical analyses, driving data-driven decision-making and contributing to a 12% increase in operational efficiency. Crafted compelling data visualizations using Tableau and Power BI, enhancing data-driven storytelling and achieving a 10% rise in stakeholder engagement.",
+    tool: ['Tableau', 'AWS', 'Cloud Computing', 'SQL', 'Python', 'Docker', 'Rest APIs','Qlik'],
   ),
   ServicesUtils(
     name: 'BambooFresh',
