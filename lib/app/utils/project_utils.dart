@@ -41,17 +41,17 @@ List<ProjectUtils> projectUtils = [
   ProjectUtils(
     banners: 'assets/imgs/DA2.png',
     icons: 'assets/imgs/jupyter.png',
-    titles: 'BambooFresh App',
+    titles: 'Marketing Analytics',
     description:
-        'BambooFresh: Your ultimate green grocery Flutter app. Shop fresh, locally sourced produce while enjoying seamless operations, all driven by the innovative spirit of community-focused development.',
+        'Statistical Analysis and Visualization for Marketing Analytics using Python and Pandas',
     links: 'https://akhilgurrapu.github.io/Marketing_Analytics-DataScience-Project/',
   ),
   ProjectUtils(
     banners: 'assets/imgs/bamboofresh.png',
     icons: 'assets/imgs/BambooFreshLogo.png',
-    titles: 'Marketing Analytics',
+    titles: 'BambooFresh App',
     description:
-        'Statistical Analysis and Visualization for Marketing Analytics using Python and Pandas',
+        'BambooFresh: Your ultimate green grocery Flutter app. Shop fresh, locally sourced produce while enjoying seamless operations, all driven by the innovative spirit of community-focused development.',
     links: 'https://play.google.com/store/apps/details?id=in.bamboofresh.bamboofresh&pli=1',
   ),
 ];
