@@ -15,6 +15,14 @@ class ProjectUtils {
 
 List<ProjectUtils> projectUtils = [
   ProjectUtils(
+    banners: 'assets/imgs/textAI.png',
+    icons: 'assets/imgs/replit.png',
+    titles: 'Capital Asset Pricing Model',
+    description:
+        'AI Text Summarizer App! This app leverages the power of Artificial Intelligence APIs to provide concise summaries of long texts. Whether you have a lengthy article, research paper, or any other text document that you want to summarize quickly, this app can assist you.',
+    links: 'https://ai-powered-text-summarization-application.akhilgur123.repl.co/',
+  ),
+  ProjectUtils(
     banners: 'assets/imgs/02.png',
     icons: 'assets/imgs/streamlit.png',
     titles: 'Capital Asset Pricing Model',
