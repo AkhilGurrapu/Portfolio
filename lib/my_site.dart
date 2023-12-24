@@ -5,9 +5,10 @@ import 'package:akhilgurrapu/core/configs/connection/network_check.dart';
 import 'package:akhilgurrapu/core/providers/drawer_provider.dart';
 import 'package:akhilgurrapu/core/providers/scroll_provider.dart';
 import 'package:akhilgurrapu/core/theme/cubit/theme_cubit.dart';
-import 'package:provider/provider.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:provider/provider.dart';
 import 'package:sizer/sizer.dart';
+import 'package:akhilgurrapu/pages/project_page.dart'; // Update the import path
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -31,7 +32,10 @@ class MyApp extends StatelessWidget {
               title: 'Akhil Gurrapu',
               theme: AppTheme.themeData(state.isDarkThemeOn, context),
               initialRoute: "/",
-              routes: {"/": (context) => const NChecking()},
+              routes: {
+                "/": (context) => const NChecking(),
+                "/projects": (context) =>  ProjectsPage(), // Add this line
+              },
             );
           });
         }),

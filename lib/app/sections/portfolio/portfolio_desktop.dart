@@ -42,7 +42,10 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
           ),
           Space.y(3.w)!,
           OutlinedButton(
-            onPressed: () => openURL(gitHub),
+            onPressed: () {
+            // Add the navigation logic here
+            Navigator.pushNamed(context, '/projects');
+          },
             child: const Padding(
               padding: EdgeInsets.all(8.0),
               child: Text(
