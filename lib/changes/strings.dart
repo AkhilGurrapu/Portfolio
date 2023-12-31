@@ -24,6 +24,10 @@ String educationSubHeading =
 
 String protfolioSubHeading =
     "Throughout my journey as a Data Analyst, I have crafted impactful digital solutions for businesses and consumers, harnessing the power of data to drive informed decision-making and optimize performance.";
+
+String blogSubHeading =
+    "Decoding Data: Adventures in Data Engineering and Data Science Simplified.";
+
 const String aboutMeHeadline =
     'I\'m Akhil Gurrapu, a passionate Data Analyst and dedicated Data Enthusiast';
 

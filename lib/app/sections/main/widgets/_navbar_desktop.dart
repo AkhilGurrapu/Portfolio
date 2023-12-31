@@ -24,7 +24,7 @@ class _NavbarDesktopState extends State<_NavbarDesktop> {
             ...NavBarUtils.names.asMap().entries.map(
                   (e) => NavBarActionButton(
                     label: e.value,
-                    index: e.key,
+                    index: e.key, onPressed: () {  },
                   ),
                 ),
             // Space.x!,

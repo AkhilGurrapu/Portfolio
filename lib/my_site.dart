@@ -1,3 +1,4 @@
+import 'package:akhilgurrapu/pages/blog/blogs.dart';
 import 'package:flutter/material.dart';
 import 'package:akhilgurrapu/core/configs/configs.dart';
 import 'package:akhilgurrapu/core/configs/connection/bloc/connected_bloc.dart';
@@ -34,7 +35,8 @@ class MyApp extends StatelessWidget {
               initialRoute: "/",
               routes: {
                 "/": (context) => const NChecking(),
-                "/projects": (context) =>  ProjectsPage(), // Add this line
+                "/projects": (context) =>  ProjectsPage(),
+                "/blog" : (context) => BlogPage(),
               },
             );
           });

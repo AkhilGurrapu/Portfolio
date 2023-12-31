@@ -11,7 +11,7 @@ class NavBarActionButton extends StatefulWidget {
   const NavBarActionButton({
     Key? key,
     required this.label,
-    required this.index,
+    required this.index, required Null Function() onPressed,
   }) : super(key: key);
 
   @override
