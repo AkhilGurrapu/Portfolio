@@ -80,6 +80,7 @@ flutter:
   assets:
     - assets/imgs/
     - assets/gif/
+    - assets/posts/
     - lib/pages/blogposts/
 
   fonts:

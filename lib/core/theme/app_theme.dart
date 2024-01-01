@@ -6,6 +6,8 @@ class AppTheme {
   static ThemeData themeData(bool isDarkTheme, BuildContext context) {
     return isDarkTheme ? ThemeColors.lightTheme : ThemeColors.darkTheme;
   }
+
+  static blogThemeData(bool isDarkThemeOn, BuildContext context) {}
 }
 
 class ThemeColors {

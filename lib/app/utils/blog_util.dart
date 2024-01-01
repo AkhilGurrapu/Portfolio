@@ -16,20 +16,20 @@ class BlogUtils {
 
  List<BlogUtils> blogUtils = [
       BlogUtils(
-        banners: 'assets/imgs/powerbiproject.png',
-        icons: 'assets/imgs/powerbi.png',
-        titles: 'PowerBI Resume Dashboard',
+        banners: 'assets/posts/hdfsA.png',
+        icons: 'assets/posts/hadoop1.webp',
+        titles: 'Introduction to Hadoop',
         description:
-            'My professional journey with the Power BI Resume Dashboard. This dynamic visualization offers a concise overview of my skills, achievements, and career highlights',
+            'Unleashing the Power of Big Data Processing in a Nutshell.',
         markdowfile: 'lib/pages/blogposts/post1.md',
       ),
-      BlogUtils(
-        banners: 'assets/imgs/textAI.png',
-        icons: 'assets/imgs/replit.png',
-        titles: 'Capital Asset Pricing Model',
-        description:
-            'AI Text Summarizer App! This app leverages the power of Artificial Intelligence APIs to provide concise summaries of long texts. Whether you have a lengthy article, research paper, or any other text document that you want to summarize quickly, this app can assist you.',
-        markdowfile: 'lib/pages/blogposts/post1.md',
-      ),
+      // BlogUtils(
+      //   banners: 'assets/imgs/textAI.png',
+      //   icons: 'assets/imgs/replit.png',
+      //   titles: 'Capital Asset Pricing Model',
+      //   description:
+      //       'AI Text Summarizer App! This app leverages the power of Artificial Intelligence APIs to provide concise summaries of long texts. Whether you have a lengthy article, research paper, or any other text document that you want to summarize quickly, this app can assist you.',
+      //   markdowfile: 'lib/pages/blogposts/post1.md',
+      // ),
       // Add more projects as needed
     ];

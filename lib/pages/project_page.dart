@@ -66,14 +66,14 @@ class ProjectsPage extends StatelessWidget {
         'BambooFresh: Your ultimate green grocery Flutter app. Shop fresh, locally sourced produce while enjoying seamless operations, all driven by the innovative spirit of community-focused development.',
     links: 'https://play.google.com/store/apps/details?id=in.bamboofresh.bamboofresh&pli=1',
   ),
-  ProjectUtils(
-    banners: 'assets/imgs/bamboofresh.png',
-    icons: 'assets/imgs/BambooFreshLogo.png',
-    titles: 'BambooFresh App',
-    description:
-        'BambooFresh: Your ultimate green grocery Flutter app. Shop fresh, locally sourced produce while enjoying seamless operations, all driven by the innovative spirit of community-focused development.',
-    links: 'https://play.google.com/store/apps/details?id=in.bamboofresh.bamboofresh&pli=1',
-  ),
+  // ProjectUtils(
+  //   banners: 'assets/imgs/bamboofresh.png',
+  //   icons: 'assets/imgs/BambooFreshLogo.png',
+  //   titles: 'BambooFresh App',
+  //   description:
+  //       'BambooFresh: Your ultimate green grocery Flutter app. Shop fresh, locally sourced produce while enjoying seamless operations, all driven by the innovative spirit of community-focused development.',
+  //   links: 'https://play.google.com/store/apps/details?id=in.bamboofresh.bamboofresh&pli=1',
+  // ),
 
       // Add more projects as needed
     ];
