@@ -1,20 +1,15 @@
+import 'package:akhilgurrapu/app/utils/blog_util.dart';
 import 'package:flutter/material.dart';
 import 'package:akhilgurrapu/core/color/colors.dart';
 import 'package:akhilgurrapu/core/configs/configs.dart';
 import 'package:akhilgurrapu/core/res/responsive.dart';
-// import 'package:akhilgurrapu/core/util/constants.dart';
-import 'package:flutter_markdown/flutter_markdown.dart';
+import 'package:akhilgurrapu/core/util/constants.dart';
 import 'package:sizer/sizer.dart';
-
-import '../../app/utils/blog_util.dart';
-
-
 
 class BlogCard extends StatefulWidget {
   final BlogUtils project;
 
   const BlogCard({Key? key, required this.project}) : super(key: key);
-
   @override
   BlogCardState createState() => BlogCardState();
 }
@@ -24,13 +19,14 @@ class BlogCardState extends State<BlogCard> {
 
   @override
   Widget build(BuildContext context) {
+    // double width = MediaQuery.of(context).size.width;
     double height = MediaQuery.of(context).size.height;
     var theme = Theme.of(context);
     return InkWell(
       hoverColor: Colors.transparent,
       splashColor: Colors.transparent,
       highlightColor: Colors.transparent,
-      onTap: () => openBlogFile(widget.project.markdowfile, widget.project.titles),
+      onTap: () => openURL(widget.project.link),
       onHover: (isHovering) {
         if (isHovering) {
           setState(() => isHover = true);
@@ -89,58 +85,17 @@ class BlogCardState extends State<BlogCard> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(10),
                   image: DecorationImage(
-                    image: AssetImage(widget.project.banners),
-                    fit: BoxFit.cover,
-                  ),
+                      image: AssetImage(widget.project.banners),
+                      fit: BoxFit.cover),
                 ),
+                // child: Image.asset(
+                //   widget.project.banners,
+                //   fit: BoxFit.cover,
+                // ),
               ),
             ),
           ],
         ),
-      ),
-    );
-  }
-
-
-void openBlogFile(String markdownFilePath, String blogTitle) {
-  Navigator.push(
-    context,
-    MaterialPageRoute(
-      builder: (context) => BlogPostPage(
-        markdownFilePath: markdownFilePath,
-        blogTitle: blogTitle,
-      ),
-    ),
-  );
-}
-}
-
-
-class BlogPostPage extends StatelessWidget {
-  final String markdownFilePath;
-  final String blogTitle;
-
-  const BlogPostPage({
-    Key? key,
-    required this.markdownFilePath,
-    required this.blogTitle,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(blogTitle),  // Set the title dynamically
-      ),
-      body: FutureBuilder(
-        future: DefaultAssetBundle.of(context).loadString(markdownFilePath),
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.done) {
-            return Markdown(data: snapshot.data.toString());
-          } else {
-            return CircularProgressIndicator();
-          }
-        },
       ),
     );
   }

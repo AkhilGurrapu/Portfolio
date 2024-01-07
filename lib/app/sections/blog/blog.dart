@@ -9,9 +9,9 @@ class Blog extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Responsive(
-      mobile: BlogDesktop(),
+      mobile: BlogMobileTab(),
       tablet: BlogMobileTab(),
-      desktop: BlogMobileTab(),
+      desktop: BlogDesktop(),
     );
   }
 }

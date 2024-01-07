@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:akhilgurrapu/app/utils/project_utils.dart';
 import 'package:akhilgurrapu/app/widgets/custom_text_heading.dart';
-import 'package:akhilgurrapu/changes/links.dart';
 import 'package:akhilgurrapu/changes/strings.dart';
 import 'package:akhilgurrapu/core/configs/configs.dart';
-import 'package:akhilgurrapu/core/util/constants.dart';
 import 'package:sizer/sizer.dart';
 
 import 'widgets/project_card.dart';

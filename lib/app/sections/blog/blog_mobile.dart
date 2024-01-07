@@ -1,13 +1,12 @@
-import 'package:akhilgurrapu/pages/blog/blogutils.dart';
+import 'package:akhilgurrapu/app/sections/blog/blogcard.dart';
+import 'package:akhilgurrapu/app/utils/blog_util.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:akhilgurrapu/app/widgets/custom_text_heading.dart';
-import 'package:akhilgurrapu/app/utils/blog_util.dart';
 import 'package:akhilgurrapu/changes/strings.dart';
 import 'package:akhilgurrapu/core/configs/configs.dart';
-
 import 'package:sizer/sizer.dart';
-
+import 'package:url_launcher/url_launcher.dart';
 
 
 class BlogMobileTab extends StatelessWidget {
@@ -22,7 +21,7 @@ class BlogMobileTab extends StatelessWidget {
         Space.y(3.w)!,
         Padding(
           padding: EdgeInsets.symmetric(horizontal: 10.w),
-          child: CustomSectionSubHeading(text: blogSubHeading),
+          child: CustomSectionSubHeading(text: protfolioSubHeading),
         ),
         Space.y(5.w)!,
         CarouselSlider.builder(
@@ -45,7 +44,7 @@ class BlogMobileTab extends StatelessWidget {
         OutlinedButton(
           onPressed: () {
             // Add the navigation logic here
-            Navigator.pushNamed(context, '/blog');
+            launch('https://www.datasarva.com');
           },
           child: const Padding(
             padding: EdgeInsets.all(8.0),
