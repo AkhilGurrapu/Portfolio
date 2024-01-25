@@ -20,7 +20,7 @@ List<ProjectUtils> projectUtils = [
     titles: 'Capital Asset Pricing Model',
     description:
         'AI Text Summarizer App! This app leverages the power of Artificial Intelligence APIs to provide concise summaries of long texts. Whether you have a lengthy article, research paper, or any other text document that you want to summarize quickly, this app can assist you.',
-    links: 'https://ai-powered-text-summarization-application.akhilgur123.repl.co/',
+    links: 'https://akhilgurrapu.github.io/AI-Text-Summarizer-App/',
   ),
   ProjectUtils(
     banners: 'assets/imgs/02.png',
