@@ -1,5 +1,6 @@
 import 'package:akhilgurrapu/app/sections/Education/education.dart';
 import 'package:akhilgurrapu/app/sections/blog/blog.dart';
+import 'package:akhilgurrapu/app/sections/certification/certification.dart';
 import 'package:flutter/material.dart';
 import 'package:akhilgurrapu/app/sections/contact/contact.dart';
 import 'package:akhilgurrapu/app/sections/home/home.dart';
@@ -12,8 +13,9 @@ class BodyUtils {
     HomePage(),
     Services(),
     Education(),
-    Portfolio(),
+    Certification(),
     Blog(),
+    Portfolio(),
     Contact(),
     Footer(),
   ];

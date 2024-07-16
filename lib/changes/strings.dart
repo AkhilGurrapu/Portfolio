@@ -22,8 +22,11 @@ String servicesSubHeading =
 String educationSubHeading = 
     "I am a graduate student at Southern Illinois University Edwardsville (SIUE) pursuing a Master of Science in Management Information Systems. I have a Bachelor of Technology in Electrical and Electronics Engineering from Kakatiya Institute of Technology and Science (KITS), Warangal, India.";
 
+String certificationSubHeading =
+    "Throughout my career, I have earned several key certifications, showcasing my dedication to leveraging data for impactful insights and effective solutions.";
+
 String protfolioSubHeading =
-    "Throughout my journey as a Data Analyst, I have crafted impactful digital solutions for businesses and consumers, harnessing the power of data to drive informed decision-making and optimize performance.";
+    "Throughout my journey as a Data Analytics Engineer, I have crafted impactful digital solutions for businesses and consumers, harnessing the power of data to drive informed decision-making and optimize performance.";
 
 String blogSubHeading =
     "Decoding Data: Adventures in Data Engineering and Data Analytics Simplified.";
