@@ -23,6 +23,14 @@ List<ServicesUtils> servicesUtils = [
     tool: ['Microsoft Fabric', 'Power BI', 'Azure Data Factory','Azure Synapse Analytics', 'SQL', 'Python', 'Microsoft Purview','Data science', 'Data Analytics', 'Data Engineering', 'Data Science'],
   ),
   ServicesUtils(
+    name: 'DataSarva',
+    title: 'Blogger - Founder',
+    icon: 'assets/imgs/DataSarva.jpg',
+    description:
+        "As the founder and main contributor at DataSarva, my aim is to make data understandable and engaging for everyone. Every blog and project is a reflection of my passion for simplifying and sharing data knowledge. Join us at DataSarva to explore the fascinating world of data in a friendly, accessible way.",
+    tool: ['Microsoft Fabric', 'Power BI', 'Azure Data Factory','Azure Synapse Analytics', 'Azure DataBricks', 'AWS','Cloud Computing', 'SQL', 'Python', 'R','Data Visualization', 'Data Analytics', 'Data Science', 'Data Engineering'],
+  ),
+  ServicesUtils(
     name: 'Southern Illinois University Edwardsville',
     title: 'Graduate Assistant',
     icon: 'assets/imgs/siue.png',
